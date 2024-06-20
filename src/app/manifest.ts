@@ -2,14 +2,14 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Fund Purifier',
-    short_name: 'Fund Purifier',
-    description: 'Invest in halal versions of popular US ETFs and mutual funds',
+    name: 'Next PWA with Serwist Example',
+    short_name: 'My PWA',
+    description: 'An example of how to use Serwist in Next.js',
     start_url: '/',
     display: 'standalone',
     orientation: 'portrait',
-    background_color: '#733DE4',
-    theme_color: '#733DE4',
+    background_color: '#fff',
+    theme_color: '#fff',
     icons: [
       {
         src: '/icon-192x192.png',
